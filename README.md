@@ -13,7 +13,8 @@ Two different views of the travel app.
 
 2.Approver :- Verfication of the recorded travel data entered by the processor.
 
-/DMO/Travel is the root entity.There can be n number of bookings and n number of supplements I need some extra services like particular food in flight. It is the composition relationship between the travel , the booking and the supplement entries where the travel entity represents roots of the data model.
+_/DMO/Travel is the root entity.There can be n number of bookings and n number of supplements I need some extra services like particular food in flight. 
+_It is the composition relationship between the travel , the booking and the supplement entries where the travel entity represents roots of the data model.
 
 
 
