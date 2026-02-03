@@ -40,7 +40,7 @@ in the transactional table and master data table so we get the extra information
 * /DMO/BOOKING_M
 * /DMO/BOOKINGSUPPL_M
 
-  !!THESE ARE THE PERSISTENT TABLE WHERE THE DATA WILL BE SAVED!!
+  **THESE ARE THE PERSISTENT TABLE WHERE THE DATA WILL BE SAVED**
 
 
 
