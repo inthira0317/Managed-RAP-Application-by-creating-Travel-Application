@@ -36,9 +36,9 @@ ________________________________________________________________________________
 *We have the three entity and we will create one business object by putting the  /DMO/TRAVEL , /DMO/BOOKING , /DMO/BOOKINGSUPPLEMENT WE WILL START WITH THE TRAVEL NOT ONLY WE HAVE THIS M TRANSACTIONAL DATA these all are the transactional data table also on top of the master data table  we have to create the interface view and we need CDS VIEWS  and that we have to utilize
 in the transactional table and master data table so we get the extra information like*
 
-* /DMO/TRAVEL_M
-* /DMO/BOOKING_M
-* /DMO/BOOKINGSUPPL_M
+* /DMO/TRAVEL_M ---- A travel entity defines general travel data,such as the agency ID or customer ID overall status of the travel bookings and the total price of a travel.
+* /DMO/BOOKING_M ----- The booking entity is used for managing flight booking data such as the customer, the flight connection or the price and the flight date.
+* /DMO/BOOKINGSUPPL_M ------- The entity is used to add additional products to a travel booking.
 
   ***THESE ARE THE PERSISTENT TABLE WHERE THE DATA WILL BE SAVED***
 
