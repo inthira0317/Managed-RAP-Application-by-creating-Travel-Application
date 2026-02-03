@@ -33,8 +33,8 @@ Two different views of the travel app.
 > Deleting a **Travel** instance will automatically delete all related **Bookings** and **Supplements** due to the **composition relationship**.
 _________________________________________________________________________________________________
 
-We have the three entity and we will create one business object by putting the * /DMO/TRAVEL , /DMO/BOOKING , /DMO/BBOKINGSUPPLEMENT WE WILL START WITH THE TRAVEL NOT ONLY WE HAVE THIS M TRANSACTIONAL DATA these all are the transactional data table also on top of the master data table  we have to create the interface view and we need CDS VIEWS * and that we have to utilize
-in the transactional table and master data table so we get the extra information like 
+* We have the three entity and we will create one business object by putting the  /DMO/TRAVEL , /DMO/BOOKING , /DMO/BBOKINGSUPPLEMENT WE WILL START WITH THE TRAVEL NOT ONLY WE HAVE THIS M TRANSACTIONAL DATA these all are the transactional data table also on top of the master data table  we have to create the interface view and we need CDS VIEWS  and that we have to utilize
+in the transactional table and master data table so we get the extra information like *
 
 
 
