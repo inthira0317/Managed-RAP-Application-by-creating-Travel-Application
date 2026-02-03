@@ -16,6 +16,22 @@ Two different views of the travel app.
 >[!IMPORTANT]
 >/DMO/Travel is the root entity.There can be n number of bookings and n number of supplements I need some extra services like particular food in flight. 
 >It is the composition relationship between the travel , the booking and the supplement entries where the travel entity represents roots of the data model.
+> [!NOTE]
+> This project is built using the **Managed RAP (RESTful ABAP Programming Model)**, where all transactional behavior is controlled by the framework via the root entity.
+
+> [!TIP]
+> Always create and modify **Booking** and **Supplement** entities through the **Travel root entity (`/DMO/Travel`)** to ensure data consistency and lifecycle control.
+
+> [!IMPORTANT]
+> `/DMO/Travel` is the **root entity**.  
+> Bookings and Supplements are **composition child entities** and **cannot exist independently**.
+
+> [!WARNING]
+> Direct manipulation of child entities outside the Travel context may lead to **inconsistent data** and **RAP runtime errors**.
+
+> [!CAUTION]
+> Deleting a **Travel** instance will automatically delete all related **Bookings** and **Supplements** due to the **composition relationship**.
+
 
 
 
