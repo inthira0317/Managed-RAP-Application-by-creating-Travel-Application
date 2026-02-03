@@ -4,7 +4,7 @@ We will implement a simple travel provider app that can be used to manage flight
 
 In this case you can see the customer one is the travel provider and travel agency. we will plan a trip and book for customer through travel provider in real time like makemytrip and travel agency such as airasia andn indigo .
 
-# They entered the booking detail , supplementry detail what the customer wants after the process they will save in the back end and approved by the travel agency .
+*They entered the booking detail , supplementry detail what the customer wants after the process they will save in the back end and approved by the travel agency .*
 
 Two different views of the travel app.
 
