@@ -36,7 +36,11 @@ ________________________________________________________________________________
 *We have the three entity and we will create one business object by putting the  /DMO/TRAVEL , /DMO/BOOKING , /DMO/BBOKINGSUPPLEMENT WE WILL START WITH THE TRAVEL NOT ONLY WE HAVE THIS M TRANSACTIONAL DATA these all are the transactional data table also on top of the master data table  we have to create the interface view and we need CDS VIEWS  and that we have to utilize
 in the transactional table and master data table so we get the extra information like*
 
-* DMO/TRAVEL_M,/DMO/BOOKING_M,/DMO/BOOKINGSUPPL_M
+* /DMO/TRAVEL_M
+* /DMO/BOOKING_M
+* /DMO/BOOKINGSUPPL_M
+
+  !!THESE ARE THE PERSISTENT TABLE WHERE THE DATA WILL BE SAVED!!
 
 
 
