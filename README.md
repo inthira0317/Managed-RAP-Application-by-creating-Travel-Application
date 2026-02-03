@@ -31,6 +31,7 @@ Two different views of the travel app.
 
 > [!CAUTION]
 > Deleting a **Travel** instance will automatically delete all related **Bookings** and **Supplements** due to the **composition relationship**.
+@
 
 
 
